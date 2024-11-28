@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>М.Видео</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="head">
+      <div class="top-bar">
+        <ul class="bar">
+          <li><a href="#">Москва</a></li>
+          <li><a href="https://www.mvideo.ru/shops/store-list?from=header">Магазины</a></li>
+          <li><a href="https://www.mvideo.ru/info/mmaster-service?from=header">Установка и ремонт</a></li>
+        </ul>
+        <ul class="bar">
+          <li><a href="https://www.mvideo.ru/mcombo?from=header">М.Комбо</a></li>
+          <li><a href="https://www.mvideo.ru/blog/?from=header">Блог «М.Клик»</a></li>
+          <li><a href="https://www.mvideo.ru/mclub?from=header">М.Club</a></li>
+          <li><a href="https://www.mvideo.ru/info/mvideo-biznes?from=header">Для бизнесса</a></li>
+          <li><a href="tel:+78006007775">8-800-600-7775</a></li>
+        </ul>
+      </div>
+
+      <div class="logo">
+        <img src="https://cms.mvideo.ru/magnoliaPublic/dam/jcr:f57062ef-960d-4458-b10e-314bf7573980" alt="logo">
+        <button class="search-button" onclick="alert('Кнопка нажата!')"></button>
+        <input type="text" class="search-box" placeholder="Искать товары за 1₽">
+        <a href="https://www.mvideo.ru/vse-akcii?showOrderInfo=true&orderId=&phone=" target="_blank" class="image-link" style="background-image: url('status.jpeg');"></a>
+        <a href="https://www.mvideo.ru/my-account" target="_blank" class="image-link" style="background-image: url('voyti.jpeg');"></a>
+        <a href="#" target="_blank" class="image-link" style="background-image: url('sravnenie.jpeg');"></a>
+        <a href="#" target="_blank" class="image-link" style="background-image: url('izbranoe.jpeg');"></a>
+        <a href="https://www.mvideo.ru/cart" target="_blank" class="image-link" style="background-image: url('korzina.jpeg');"></a>
+      </div>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="https://www.mvideo.ru/vse-akcii?from=under_search">Все Акции</a></li>
+          <li><a href="https://www.mvideo.ru/promo/bf?from=under_search">Чёрная Пятница</a></li>
+          <li><a href="https://www.mvideo.ru/promo/nedeli-samsung?from=under_search">Недели Samsung</a></li>
+          <li><a href="https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118?from=under_search">Ноутбуки</a></li>
+          <li><a href="https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65?from=under_search">Телевизоры</a></li>
+          <li><a href="https://www.mvideo.ru/promo/luchshie-predlojeniya?from=under_search">Чемпионы скидок</a></li>
+          <li><a href="https://www.mvideo.ru/stiralnye-i-sushilnye-mashiny-2427/stiralnye-mashiny-89/f/category=uzkie-stiralnye-mashiny-2446?from=under_search">Cтиральные машины</a></li>
+          <li><a href="https://www.mvideo.ru/holodilniki-i-morozilniki-2687/holodilniki-i-morozilnye-kamery-159?from=under_search">Холодильники</a></li>
+          <li><a href="https://www.mvideo.ru/prigotovlenie-kofe-29/kofemashiny-155?from=under_search">Кофемашины</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="sliders-row">
+    <!-- Первый слайдер -->
+    <section class="slider">
+      <div class="slider-container">
+        <input type="radio" id="slide1" name="slider1" checked>
+        <input type="radio" id="slide2" name="slider1">
+
+        <div class="slider-images">
+          <img src="https://cms.mvideo.ru/magnoliaPublic/dam/jcr:7f7743bd-3aed-413c-97ad-c8b952b934a5?fmt=webp" alt="Фото 1">
+          <img src="https://cms.mvideo.ru/magnoliaPublic/dam/jcr:227d94bd-991d-46d4-a7c9-5c76448c0471?fmt=webp" alt="Фото 2">
+        </div>
+
+        <div class="slider-control">
+          <label for="slide1">&#10094;</label>
+          <label for="slide2">&#10095;</label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Второй слайдер -->
+    <section class="slider-small">
+      <div class="slider-container-small">
+        <input type="radio" id="small-slide1" name="slider2" checked>
+        <input type="radio" id="small-slide2" name="slider2">
+
+        <div class="slider-images">
+          <img src="photoslider1.jpeg" alt="Small Фото 1">
+          <img src="photoslider2.jpeg" alt="Small Фото 2">
+        </div>
+
+        <div class="slider-control-small">
+          <label for="small-slide1">&#10094;</label>
+          <label for="small-slide2">&#10095;</label>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <div class="button-container">
+    <div class="button" style="background-image: url('first-button.jpeg');" alt="Кнопка 1"></div>
+    <div class="button" style="background-image: url('seconbutton.jpeg');" alt="Кнопка 2"></div>
+    <div class="button" style="background-image: url('thirdbutton.jpeg');" alt="Кнопка 3"></div>
+    <div class="button" style="background-image: url('forthbutton.jpeg');" alt="Кнопка 4"></div>
+    <div class="button" style="background-image: url('fithbutton.jpeg');" alt="Кнопка 5"></div>
+  </div>
+</body>
+</html>
